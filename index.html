@@ -12,8 +12,21 @@ index.html
     <h1>Bienvenue sur FlyElite.pro</h1>
   </header>
   <main>
-    <p>Contenu principal ici.</p>
-  </main>
+  <h2>Réserve ton vol ✈️</h2>
+  <form id="searchForm">
+    <label for="from">Départ :</label>
+    <input type="text" id="from" name="from" placeholder="CDG" required>
+
+    <label for="to">Arrivée :</label>
+    <input type="text" id="to" name="to" placeholder="JFK" required>
+
+    <label for="date">Date de départ :</label>
+    <input type="date" id="date" name="date" required>
+
+    <button type="submit">Rechercher</button>
+  </form>
+</main>
+
   <footer>
     <p>© 2025 FlyElite.pro – Tous droits réservés</p>
   </footer>
